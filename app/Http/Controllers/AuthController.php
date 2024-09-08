@@ -22,7 +22,7 @@ class AuthController extends Controller
 
    Auth::login($user);
 
-   return redirect()->route('posts');
+   return redirect()->route('/posts');
    }
 
    public function login(Request $request) {

@@ -34,4 +34,21 @@
             </div>
         </form>
     </div>
+
+    <h2 class="my-4 font-bold underline flex justify-center text-3xl text-indigo-700">Your Latest Posts</h2>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        @foreach ($posts as $post)
+           <x-postCard :post="$post"/>
+        @endforeach
+    </div>
+
+
+    <div class="mt-8">
+        <div class="flex justify-center space-x-4">
+                {{ $posts->links() }}
+            </div>
+        </div>
+    </div>
+
 </x-layout>
