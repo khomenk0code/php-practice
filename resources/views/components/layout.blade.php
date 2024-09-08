@@ -12,7 +12,7 @@
 <header class="bg-white shadow-md">
     <nav class="container mx-auto flex justify-between items-center py-4 px-8">
         <!-- Logo or Home Link -->
-        <a href="{{ route('home') }}" class="text-xl font-bold text-indigo-600 hover:text-indigo-800">Home</a>
+        <a href="{{ route('posts.index') }}" class="text-xl font-bold text-indigo-600 hover:text-indigo-800">Home</a>
 
         @auth
         <div class="relative" x-data="{ open: false }">
