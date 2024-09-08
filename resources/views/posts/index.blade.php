@@ -20,4 +20,13 @@
             </div>
         @endforeach
     </div>
+
+    <div class="mt-8">
+        <div class="flex justify-center space-x-4">
+                {{ $posts->links() }}
+            </div>
+        </div>
+    </div>
+    
+
 </x-layout>

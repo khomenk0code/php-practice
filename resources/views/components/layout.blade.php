@@ -48,7 +48,7 @@
 </header>
 
 <!-- Main content area should grow to fill available space -->
-<main class="flex-grow py-12 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+<main class="flex-grow py-12 px-4 sm:px-6 lg:px-8 max-w-7xl mx-5xl">
     <!-- Main content slot for dynamic content -->
     {{ $slot }}
 </main>
